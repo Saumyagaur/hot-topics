@@ -86,7 +86,7 @@ header{
 
 /*TABLET VIEW*/
 
-@media only screen and (min-width: 45rem) {
+@media only screen and (min-width: 35rem) {
     body {
         font-size: 1rem;
     }
@@ -128,6 +128,8 @@ header{
     }
     
 }
+
+
 
 @media only screen and (min-width: 80rem) {
     
