@@ -3,7 +3,7 @@ const navItems = document.querySelectorAll("header nav ul li");
 const container = document.querySelector(".container");
 
 
-let path = "http://localhost/rich-media/week-12/hot-topic/content/home.html";
+let path = "hot-topic/content/home.html";
 
 function handleClick(ev) {
     
