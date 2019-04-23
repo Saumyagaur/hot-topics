@@ -1,0 +1,161 @@
+html {
+    font-size: 100%;
+}
+body {
+    font-family: "Arial", sans-serif;
+    line-height: 1.5;
+    margin: 1rem;
+    color: #565656;
+    font-size: 0.75rem;
+}
+
+.error {
+    color: red;
+}
+
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+nav {
+    text-align: center;
+    margin-left: -40px;
+}
+nav ul {
+    list-style: none;  
+}
+
+nav ul li {
+    background-color: #FFDF4D;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#artImg {
+    width: 400px;
+    height: auto;
+    margin-bottom: 30px;
+    /*float:none;*/
+}
+
+.article-1 h2 {
+        margin-bottom: 30px;
+    }
+
+.article-2 h2 {
+        margin-bottom: 30px;
+    }
+
+.article-3 h2 {
+        margin-bottom: 30px;
+    }
+
+.portfolio-content {
+    text-align: center;
+}
+
+.card-img-top {
+    width: 300px;
+    height: auto;
+}
+
+.card {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+header{
+  
+    text-align: center;
+}
+
+.masthead {
+    display: none;
+}
+
+
+
+
+
+/*TABLET VIEW*/
+
+@media only screen and (min-width: 45rem) {
+    body {
+        font-size: 1rem;
+    }
+    .text-center {
+        display: none;
+    } 
+    
+    .masthead {
+        opacity: 1;
+        display: contents;
+       
+    }
+    
+    .masthead img {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .article-1 {
+        margin-top: 40px;
+        
+    }
+    
+    .article-1 h2 {
+        margin-bottom: 30px;
+    }
+    
+    .article-2 h2 {
+        margin-bottom: 30px;
+    }
+    
+    .article-3 h2 {
+        margin-bottom: 30px;
+    }
+    
+    #artImg {
+        float: left;
+        margin-right: 5%;
+    }
+    
+}
+
+@media only screen and (min-width: 80rem) {
+    
+    body {
+        font-size: 1.25rem;
+    }
+    
+    .upHead {
+        margin-left: 15%;
+       text-align: center;
+    }
+    
+    .logo {
+        margin-top: 20px;
+        margin-right: 0;
+    }
+    
+    
+    .fullNav {
+        margin-top: 50px;
+
+    }
+    
+    footer {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    
+    
+}
